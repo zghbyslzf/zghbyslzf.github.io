@@ -1,6 +1,6 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: Maya Blog
+SEOTitle: Maya的博客 | Maya Blog
 header-img: img/post-bg-desk.jpg
 email: qiubaiying@gmail.com
 description: "Every failure is leading towards success."
@@ -25,7 +25,7 @@ facebook_username:  baiying.qiu.7
 jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
-
+#允许修改的时候
 
 
 # Build settings
