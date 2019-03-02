@@ -10,7 +10,7 @@
     <meta name="keywords"  content="Maya, Maya Blog, Maya的博客, liuzefeng, 刘泽峰, 前端, Web, JavaScript">
     <meta name="theme-color" content="#000000">
     
-    <title>Tags - Maya的博客 | Maya Blog</title>
+    <title>翻译：没有那个是错的 - Maya的博客 | Maya Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/tags/">
+    <link rel="canonical" href="http://localhost:4000/2018/12/08/%E7%BF%BB%E8%AF%91-%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B8%AA%E6%98%AF%E9%94%99%E7%9A%84/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -152,69 +152,231 @@
 </script>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/tag-bg.jpg')">
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-cook.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/post-bg-cook.jpg')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading" id="tag-heading">
-                    <h1>Tags</h1>
-                    <span class="subheading">Labels are not labels</span>
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#翻译" title="翻译">翻译</a>
+                        
+                    </div>
+                    <h1>翻译：没有那个是错的</h1>
+                    
+                    
+                    <h2 class="subheading">Maya的翻译计划</h2>
+                    
+                    <span class="meta">Posted by Maya on December 8, 2018</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
-				
-				<a href="#翻译" title="翻译" rel="1">翻译</a>
-				
-			</div>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
 
-            <!--<blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
-            </blockquote>-->
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-            <!-- 标签列表 -->
-			
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="翻译">
-                    <span class="tag-text">翻译</span>
-                </span>
-				
-				  <!-- <li class="listing-item">
-				  <time datetime="2018-12-08">2018-12-08</time>
-				  <a href="/2018/12/08/%E7%BF%BB%E8%AF%91-%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B8%AA%E6%98%AF%E9%94%99%E7%9A%84/" title="翻译：没有那个是错的">翻译：没有那个是错的</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="/2018/12/08/%E7%BF%BB%E8%AF%91-%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B8%AA%E6%98%AF%E9%94%99%E7%9A%84/">
-				        <h2 class="post-title">
-                            翻译：没有那个是错的
-				        </h2>
-				        
-				        <h3 class="post-subtitle">
-				            Maya的翻译计划
-				        </h3>
-				        
-				    </a>
-				    <!-- <p class="post-meta">2018-12-08</p> -->
-				</div>
-				<hr>
-				
-			</div>
-			
+				<h2 id="前言">前言</h2>
 
-		</div>
-	</div>
-</div>
+<p>为了提高英语水平，会去翻译一些国外的文章!</p>
+
+<h2 id="提示">提示</h2>
+
+<blockquote>
+  <p>水平有限，轻喷！</p>
+</blockquote>
+
+<h2 id="原文链接">原文链接</h2>
+
+<ul>
+  <li><a href="https://css-tricks.com/nobody-is-quite-wrong/">点击</a></li>
+</ul>
+
+<h2 id="译文">译文</h2>
+
+<p>我发现，在我们的行业中，关于使用浏览器不支持的新web特征,有两种截然不同的观点：</p>
+
+<p>　　1、网站不需要在所以的浏览器中看起来都一样。渐进增强的概念能够对这种观点有些帮助，有一些使用编程语言的工具能够帮助我们实现这一点。
+　　
+　　2、如果浏览器支持不是我想要的，那么它看上去只是一个异国风情的演示，而不应该被使用。
+我不会很肯定的说某一个观点比另外一个更正确。</p>
+
+<p>我认为，我支持1的观点并不另人奇怪。设计和实现在不同浏览器和条件下表现不同的东西是完全可能的。这就是现在互联网上的响应式设计。</p>
+
+<p>渐进增强的基础在于我们可以在任何地方开始工作，尽可能的从设计与功能上进行分离。甚至有一些编程语言特征支持这个想法，@supports规则允许我们写css的时候判断是否支持这个特性，如果支持就执行，不支持，就不执行。</p>
+
+<p>这个是整个使用的上面的例子的库Modernizr，它在github上有22804个星星。（现在不止这个数）
+我不想针对渐进增强去争论些什么。记住，我刚才说过我支持这个想法，但我确实对于那些不去尝试渐进增强的人和团队表示同情，最终产生了更多偏向于2的想法。</p>
+
+<p>开发和设计适应不同场合的功能需要花费大量的工作。这些工作绝对非常有用，或者也不太有用。不过，它确实能够使事情复杂化，这表示更多的代码，需要更多的精力和测试，并且很难去理解。这是技术债务。</p>
+
+<p>让我们更进一步去考虑一下：technical debt can be fine，技术债务是好的，甚至可以故意使用它。它存在于我们构建的所有项目中，我的观点是，合理聪明的承担一点技术债务能够在以后更好的维护你的项目。</p>
+
+<p>你可能认为，建立在渐进增强上的技术债务比较小，因为我搭建项目的基础比较牢固，以至于只需要少量的测试和不断的完善就行了。也许吧！</p>
+
+<p>我确实像是观点2。它使你感觉更安全，它使你感觉更加有责任心和谨慎。“嗨，那真是整洁”你会想到“我会在几年后再去看看（渐进增强），看是否能在项目中使用”。</p>
+
+<p>我可能和你争辩：1、这个玩笑并不有趣，2、你的想法是错误的。这使你不愿意接受渐进增强的方法，最终会导致你的代码变得脆弱。</p>
+
+<p>这两种观点并没有那个是错的，采用那种观点，依赖于你的想法，依赖于技术债务的重量，依赖于团队和开发者的流失率，依赖于文档，依赖于正确的测试方法！</p>
+
+<p>你写项目的时候有想到这些吗？</p>
+
+
+
+                <hr style="visibility: hidden;">
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+
+                <!--Gitalk评论start  -->
+                
+                <!-- 引入Gitalk评论插件  -->
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+                <div id="gitalk-container"></div>
+                <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+                <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
+                <script src="/js/md5.min.js"></script>
+                <script type="text/javascript">
+                    var gitalk = new Gitalk({
+                    clientID: '50633b66685903f92c79',
+                    clientSecret: '7e58674e997c8ed4f959290381d513ca5364bc08',
+                    repo: 'zghbyslzf.github.io',
+                    owner: 'zghbyslzf',
+                    admin: ['zghbyslzf'],
+                    distractionFreeMode: true,
+                    id: md5(location.pathname),
+                    });
+                    gitalk.render('gitalk-container');
+                </script>
+                
+                <!-- Gitalk end -->
+
+                
+
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.jianshu.com">简书</a></li>
+                    
+                        <li><a href="https://apple.com">Apple</a></li>
+                    
+                        <li><a href="https://developer.apple.com/">Apple Developer</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
+        // anchors.options = {
+        //   visible: 'always',
+        //   placement: 'right',
+        //   icon: '#'
+        // };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
 
 
     <!-- Footer -->
@@ -387,6 +549,50 @@
 
 
 <!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog (selector) {
+        var P = $('div.post-container'),a,n,t,l,i,c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#"+$(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            l = $('<li class="'+n+'_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;    
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function(e){
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
 
 
 
