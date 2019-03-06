@@ -5,9 +5,110 @@
     <description>A bug chasing dreams.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Mar 2019 17:08:51 +0800</pubDate>
-    <lastBuildDate>Sat, 02 Mar 2019 17:08:51 +0800</lastBuildDate>
+    <pubDate>Wed, 06 Mar 2019 11:37:16 +0800</pubDate>
+    <lastBuildDate>Wed, 06 Mar 2019 11:37:16 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>如何配置科学上网</title>
+        <description>&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;身为一个研发人员，科学上网可以说是一个必备的技能&lt;/p&gt;
+
+&lt;h2 id=&quot;方案&quot;&gt;方案&lt;/h2&gt;
+
+&lt;p&gt;此方案为购买国外服务器配置vps（收费），所以前置条件必须要有一个免费的科学上网手段，免费手段自行百度&lt;/p&gt;
+
+&lt;h2 id=&quot;服务器购买链接&quot;&gt;服务器购买链接&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://banwagong.cn/&quot;&gt;搬瓦工&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/WechatIMG8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;服务器的购买&quot;&gt;服务器的购买&lt;/h2&gt;
+
+&lt;p&gt;打开以上链接网站后，首先根据自己的需求选择一个服务器购买，服务器名词解释&lt;/p&gt;
+
+&lt;p&gt;CN2 GIA：电信高速网络，拥有独立的回国链路，属于轻度负载以保证访问品质，价格比较贵&lt;/p&gt;
+
+&lt;p&gt;CN2 GT：没有独立回国链路，走的是163网路&lt;/p&gt;
+
+&lt;p&gt;其他的就不介绍了，买这两个最好，有钱选GIA，没钱GT&lt;/p&gt;
+
+&lt;h2 id=&quot;在售套餐大致对比&quot;&gt;在售套餐大致对比&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;效果 &amp;amp; 价格：香港 &amp;gt; CN2 GIA &amp;gt; CN2 GT &amp;gt; 常用 KVM&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;购买流程&quot;&gt;购买流程&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0_th3iB6_X8j-yaiTr.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0_ziffu3ofSgvS7D_k.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0_BP2q97iqL0d6sY4m.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0_OxZwctYCMvpIP8Bl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0_SwBWumRTkrKu6I1W.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0_QSMtHx94cC4q3bDI.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;链接服务器&quot;&gt;链接服务器&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ssh -p 端口号 root@ip地址&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;输入密码&lt;/p&gt;
+
+&lt;p&gt;链接成功后&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yum install wget
+
+wget — no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+
+chmod +x shadowsocks.sh
+
+./shadowsocks.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks.log
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0_JZ1LolUwuTHILQ3-.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;建议端口号大于1000&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://pnvs34s5v.bkt.clouddn.com/0__CnWyN8A_R0zAmFz.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;记录红色的信息&lt;/p&gt;
+
+&lt;h2 id=&quot;科学上网&quot;&gt;科学上网&lt;/h2&gt;
+
+&lt;p&gt;电脑安装shadowsocks，启动，选择PAC模式（只代理国外网站）&lt;/p&gt;
+
+&lt;p&gt;点击服务器-&amp;gt;服务器设置-&amp;gt;填入你记录的信息&lt;/p&gt;
+
+&lt;h2 id=&quot;测试上网成功&quot;&gt;测试上网成功&lt;/h2&gt;
+
+&lt;p&gt;https://www.google.com&lt;/p&gt;
+
+&lt;h2 id=&quot;参考&quot;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@jackme256/%E6%90%AC%E7%93%A6%E5%B7%A5-vps-%E6%90%AD%E5%BB%BA-shadowsocks-ss-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-ss%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96-efc6dda704fe&quot;&gt;搬瓦工 VPS 搭建 Shadowsocks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/03/05/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/05/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</guid>
+        
+        <category>翻译</category>
+        
+        
+      </item>
     
       <item>
         <title>翻译：没有那个是错的</title>

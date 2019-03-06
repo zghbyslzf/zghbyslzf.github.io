@@ -10,7 +10,7 @@
     <meta name="keywords"  content="Maya, Maya Blog, Maya的博客, liuzefeng, 刘泽峰, 前端, Web, JavaScript">
     <meta name="theme-color" content="#000000">
     
-    <title>Tags - Maya的博客 | Maya Blog</title>
+    <title>如何配置科学上网 - Maya的博客 | Maya Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/tags/">
+    <link rel="canonical" href="http://localhost:4000/2019/03/05/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -152,88 +152,285 @@
 </script>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/tag-bg.jpg')">
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/home-bg-o.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/home-bg-o.jpg')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading" id="tag-heading">
-                    <h1>Tags</h1>
-                    <span class="subheading">Labels are not labels</span>
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#翻译" title="翻译">翻译</a>
+                        
+                    </div>
+                    <h1>如何配置科学上网</h1>
+                    
+                    
+                    <h2 class="subheading">外国那点事儿</h2>
+                    
+                    <span class="meta">Posted by Maya on March 5, 2019</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
-				
-				<a href="#翻译" title="翻译" rel="2">翻译</a>
-				
-			</div>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
 
-            <!--<blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
-            </blockquote>-->
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-            <!-- 标签列表 -->
-			
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="翻译">
-                    <span class="tag-text">翻译</span>
-                </span>
-				
-				  <!-- <li class="listing-item">
-				  <time datetime="2019-03-05">2019-03-05</time>
-				  <a href="/2019/03/05/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" title="如何配置科学上网">如何配置科学上网</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="/2019/03/05/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AE%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">
-				        <h2 class="post-title">
-                            如何配置科学上网
-				        </h2>
-				        
-				        <h3 class="post-subtitle">
-				            外国那点事儿
-				        </h3>
-				        
-				    </a>
-				    <!-- <p class="post-meta">2019-03-05</p> -->
-				</div>
-				<hr>
-				
-				  <!-- <li class="listing-item">
-				  <time datetime="2018-12-08">2018-12-08</time>
-				  <a href="/2018/12/08/%E7%BF%BB%E8%AF%91-%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B8%AA%E6%98%AF%E9%94%99%E7%9A%84/" title="翻译：没有那个是错的">翻译：没有那个是错的</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="/2018/12/08/%E7%BF%BB%E8%AF%91-%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B8%AA%E6%98%AF%E9%94%99%E7%9A%84/">
-				        <h2 class="post-title">
-                            翻译：没有那个是错的
-				        </h2>
-				        
-				        <h3 class="post-subtitle">
-				            Maya的翻译计划
-				        </h3>
-				        
-				    </a>
-				    <!-- <p class="post-meta">2018-12-08</p> -->
-				</div>
-				<hr>
-				
-			</div>
-			
+				<h2 id="前言">前言</h2>
 
-		</div>
-	</div>
-</div>
+<p>身为一个研发人员，科学上网可以说是一个必备的技能</p>
+
+<h2 id="方案">方案</h2>
+
+<p>此方案为购买国外服务器配置vps（收费），所以前置条件必须要有一个免费的科学上网手段，免费手段自行百度</p>
+
+<h2 id="服务器购买链接">服务器购买链接</h2>
+
+<ul>
+  <li><a href="https://banwagong.cn/">搬瓦工</a></li>
+</ul>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/WechatIMG8.png" alt="" /></p>
+
+<h2 id="服务器的购买">服务器的购买</h2>
+
+<p>打开以上链接网站后，首先根据自己的需求选择一个服务器购买，服务器名词解释</p>
+
+<p>CN2 GIA：电信高速网络，拥有独立的回国链路，属于轻度负载以保证访问品质，价格比较贵</p>
+
+<p>CN2 GT：没有独立回国链路，走的是163网路</p>
+
+<p>其他的就不介绍了，买这两个最好，有钱选GIA，没钱GT</p>
+
+<h2 id="在售套餐大致对比">在售套餐大致对比</h2>
+
+<blockquote>
+  <p>效果 &amp; 价格：香港 &gt; CN2 GIA &gt; CN2 GT &gt; 常用 KVM</p>
+</blockquote>
+
+<h2 id="购买流程">购买流程</h2>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0_th3iB6_X8j-yaiTr.png" alt="" /></p>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0_ziffu3ofSgvS7D_k.png" alt="" /></p>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0_BP2q97iqL0d6sY4m.png" alt="" /></p>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0_OxZwctYCMvpIP8Bl.png" alt="" /></p>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0_SwBWumRTkrKu6I1W.png" alt="" /></p>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0_QSMtHx94cC4q3bDI.png" alt="" /></p>
+
+<h2 id="链接服务器">链接服务器</h2>
+
+<blockquote>
+  <p>ssh -p 端口号 root@ip地址</p>
+</blockquote>
+
+<p>输入密码</p>
+
+<p>链接成功后</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install wget
+
+wget — no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+
+chmod +x shadowsocks.sh
+
+./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log
+
+</code></pre></div></div>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0_JZ1LolUwuTHILQ3-.png" alt="" /></p>
+
+<p>建议端口号大于1000</p>
+
+<p><img src="http://pnvs34s5v.bkt.clouddn.com/0__CnWyN8A_R0zAmFz.png" alt="" /></p>
+
+<p>记录红色的信息</p>
+
+<h2 id="科学上网">科学上网</h2>
+
+<p>电脑安装shadowsocks，启动，选择PAC模式（只代理国外网站）</p>
+
+<p>点击服务器-&gt;服务器设置-&gt;填入你记录的信息</p>
+
+<h2 id="测试上网成功">测试上网成功</h2>
+
+<p>https://www.google.com</p>
+
+<h2 id="参考">参考</h2>
+
+<ul>
+  <li><a href="https://medium.com/@jackme256/%E6%90%AC%E7%93%A6%E5%B7%A5-vps-%E6%90%AD%E5%BB%BA-shadowsocks-ss-%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B-ss%E5%A4%9A%E7%94%A8%E6%88%B7%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96-efc6dda704fe">搬瓦工 VPS 搭建 Shadowsocks</a></li>
+</ul>
+
+
+                <hr style="visibility: hidden;">
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/12/08/%E7%BF%BB%E8%AF%91-%E6%B2%A1%E6%9C%89%E9%82%A3%E4%B8%AA%E6%98%AF%E9%94%99%E7%9A%84/" data-toggle="tooltip" data-placement="top" title="翻译：没有那个是错的">
+                        Previous<br>
+                        <span>翻译：没有那个是错的</span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+
+
+                <!--Gitalk评论start  -->
+                
+                <!-- 引入Gitalk评论插件  -->
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+                <div id="gitalk-container"></div>
+                <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+                <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
+                <script src="/js/md5.min.js"></script>
+                <script type="text/javascript">
+                    var gitalk = new Gitalk({
+                    clientID: '50633b66685903f92c79',
+                    clientSecret: '7e58674e997c8ed4f959290381d513ca5364bc08',
+                    repo: 'zghbyslzf.github.io',
+                    owner: 'zghbyslzf',
+                    admin: ['zghbyslzf'],
+                    distractionFreeMode: true,
+                    id: md5(location.pathname),
+                    });
+                    gitalk.render('gitalk-container');
+                </script>
+                
+                <!-- Gitalk end -->
+
+                
+
+            </div>  
+
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+        				
+                            
+                				<a href="/tags/#翻译" title="翻译" rel="2">
+                                    翻译
+                                </a>
+                            
+        				
+        			</div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://www.jianshu.com">简书</a></li>
+                    
+                        <li><a href="https://apple.com">Apple</a></li>
+                    
+                        <li><a href="https://developer.apple.com/">Apple Developer</a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
+        // anchors.options = {
+        //   visible: 'always',
+        //   placement: 'right',
+        //   icon: '#'
+        // };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
 
 
     <!-- Footer -->
@@ -406,6 +603,50 @@
 
 
 <!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog (selector) {
+        var P = $('div.post-container'),a,n,t,l,i,c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#"+$(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            l = $('<li class="'+n+'_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;    
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function(e){
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
 
 
 
